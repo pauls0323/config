@@ -4,6 +4,6 @@ sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-de
 
 mkdir my_build_dir
 cd my_build_dir 
-cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/ ..
+cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr ..
 sudo make -j4
 sudo make install

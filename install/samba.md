@@ -13,11 +13,11 @@ sudo  vim  /etc/samba/smb.conf
    create mask = 0777
    writable = yes
 
-smbpasswd –a win
+sudo smbpasswd –a win
 
 
 
-/etc/init.d/samba restart
+sudo /etc/init.d/samba restart
 
 
 ```

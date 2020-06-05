@@ -22,3 +22,6 @@ git remote add origin ssh://git@gs/ss/MyProject  <!-- gs 来自hosts -->
 git add --all
 
 git push origin master
+
+git push --set-upstream origin master
+

@@ -11,4 +11,6 @@ ros-kinetic-manipulation-msgs \
 libasound2-dev \
 ros-kinetic-moveit \
 ros-kinetic-move-base-msgs \
-ros-kinetic-gazebo-ros-control 
+ros-kinetic-gazebo-ros-control \
+ros-kinetic-tf2-sensor-msgs \
+joint_state_publisher_gui
